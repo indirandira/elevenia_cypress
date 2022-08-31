@@ -1,0 +1,27 @@
+{
+  "name": "elevenia_cypress",
+  "version": "1.0.0",
+  "description": "Build an automation elevenia website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indirandira/elevenia_cypress.git"
+  },
+  "author": "Indira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/indirandira/elevenia_cypress/issues"
+  },
+  "homepage": "https://github.com/indirandira/elevenia_cypress#readme",
+  "devDependencies": {
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.3",
+    "cypress": "^10.7.0",
+    "esbuild": "^0.14.54"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^12.1.0"
+  }
+}
