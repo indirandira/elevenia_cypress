@@ -6,7 +6,7 @@ class homepage {
   }
 
   async clickBtnSearch() {
-    cy.get(locator.datatestid.btnSearch).click();
+    cy.get(locator.datatestid.btnSearch).click({ multiple: true });
   }
 }
 module.exports = new homepage();

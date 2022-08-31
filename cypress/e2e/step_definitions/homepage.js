@@ -7,12 +7,12 @@ import {
 const loginPage = require("../../pages/LoginPage");
 const homepage = require("../../pages/homepage");
 
-Given(`A user opens a elevenia website`, () => {
+Given(`As user I opens a elevenia website`, () => {
   loginPage.visit("", { timeout: 12000 });
 });
 
 When(`User search product {string}`, (product) => {
-  homepage.searchProduct();
+  homepage.searchProduct(product);
 });
 And(`User click button search`, () => {
   homepage.clickBtnSearch();
